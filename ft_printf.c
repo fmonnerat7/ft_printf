@@ -12,17 +12,17 @@
 
 int	ft_printf(const char *str, ...)
 {
-	int	cont;
+	int	aux;
 	va_list args;
 
-	cont = 0;
+	aux = 0;
 	va_start(args, str);
 	while (*str)
 	{
 		//va_arg(args, char *);
-		cont += write(1, str, 1);
+		aux += write(1, str, 1);
 		str++;
 	}
 	va_end(args);
-	return (cont);
+	return (aux);
 }
