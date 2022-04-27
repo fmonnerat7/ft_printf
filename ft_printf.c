@@ -10,18 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_printf(const char *str, ...)
+int	ft_printf(const char *s, ...)
 {
 	int	aux;
 	va_list args;
 
 	aux = 0;
-	va_start(args, str);
-	while (*str)
+	va_start(args, s);
+	while (*s)
 	{
 		//va_arg(args, char *);
-		aux += write(1, str, 1);
-		str++;
+		aux += write(1, s, 1);
+		s++;
 	}
 	va_end(args);
 	return (aux);
