@@ -4,7 +4,9 @@ static int	conversor(unsigned long long n, char *base, unsigned long long len)
 
 	aux = 0;
 	if (n > (len - 1))
+	{
 		aux += conversor((n / len), base, len);
+	}
 	write(1, &base[(n % len)], 1);
 	return (aux + 1);
 }
