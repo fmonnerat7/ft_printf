@@ -6,13 +6,13 @@
 /*   By: femonner <femonner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 14:39:04 by femonner          #+#    #+#             */
-/*   Updated: 2022/04/28 11:48:54 by femonner         ###   ########.fr       */
+/*   Updated: 2022/04/28 13:14:57 by femonner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	putchar(char c)
+int	ft_putchar(char c)
 {
 	write (1, &c, 1);
 	return (1);

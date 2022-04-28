@@ -6,7 +6,7 @@
 /*   By: femonner <femonner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 14:41:59 by femonner          #+#    #+#             */
-/*   Updated: 2022/04/28 11:49:01 by femonner         ###   ########.fr       */
+/*   Updated: 2022/04/28 13:25:48 by femonner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	ft_putstr(char *s)
 
 	if (!s)
 	{
-		return (write (1, "(NULL)", 6));
+		return (write (1, "(null)", 6));
 	}
 	i = 0;
 	while (s[i])
