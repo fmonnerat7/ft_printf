@@ -6,9 +6,11 @@
 /*   By: femonner <femonner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 14:41:59 by femonner          #+#    #+#             */
-/*   Updated: 2022/04/26 14:51:55 by femonner         ###   ########.fr       */
+/*   Updated: 2022/04/28 11:49:01 by femonner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 int	ft_putstr(char *s)
 {
